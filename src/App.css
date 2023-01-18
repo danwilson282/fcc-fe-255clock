@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background-color: rgb(22, 19, 61);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,12 +18,27 @@
 }
 
 .App-header {
-  min-height: 100vh;
-  display: flex;
+  padding: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  top: 50%;
+  -ms-transform: translateY(20%);
+  transform: translateY(20%);
+  color: white;
+  border: 2px solid white;
+  border-radius: 10%;
+  background-color: black;;
+
+}
+
+.timer {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 100px;
+  color:rgba(172, 255, 47, 0.766);
 }
 
 .App-link {
